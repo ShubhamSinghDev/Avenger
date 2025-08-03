@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    gap: 5px;
+    padding-left: 50px;
+    
+}
+ul{
+    padding: 10px;
+    display: flex;
+    column-gap: 20px;
+    gap: 50px;
+}
+nav{
+    padding: 10px;
+    margin-left: 400px;
+    
+    
+}
