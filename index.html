@@ -6,29 +6,28 @@
     <title>Document</title>
       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
       <link rel="stylesheet" href="style.css">
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+</style>
 
       <!-- https://zesty-figolla-613ce3.netlify.app/             for web reference -->
 </head>
 <body>
-    <header >
-        <h1 class="p-4.5">Avenger</h1>
-        <nav class=" flex p-2 ">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#galary">Galary</a></li>
-                <li><a href="#contact">Contact</a></li>
-
+    <header class="flex justify-between p-5  px-12  text-xl items-center fixed top-0 w-full z-10">
+        <h1 class="text-5xl first-letter:font-bold first-letter:text-red-600">Avengers</h1>
+        <nav class="navigation">
+            <ul class="flex gap-5 ">
+                <li ><a href="#home">Home</a></li>
+                <li ><a href="#about">About</a></li>
+                <li ><a href="#team">Team</a></li>
+                <li ><a href="#galary">Gallary</a></li>
+                <li ><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    
-       
     </header>
      <!-- Home -->
-        <section id="home" class="bg-[url('Images/background.jpg')] bg-center bg-cover min-h-screen w-full bg-no-repeat opacity-75">
-
-        </section>
+      <section class="bg-[url(/Images/background.jpg)] h-screen opacity-[0.7] bg-no-repeat bg-cover"></section>
+    
 
 
 
